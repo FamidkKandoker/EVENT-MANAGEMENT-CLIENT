@@ -153,10 +153,12 @@ const MyBookings = () => {
                     </div>
                     <div className="text-right">
                       <p className="text-2xl font-bold text-[var(--lum-accent)]">
-                        ৳{booking.serviceCost.toLocaleString()}
+                        {/* ৳{booking.serviceCost.toLocaleString()} */}
+                        ৳{Number(booking.serviceCost || 0).toLocaleString()}
                       </p>
                       <p className="text-sm text-gray-600">
-                        per {booking.serviceUnit}
+                        {/* per {booking.serviceUnit} */}
+                        per {booking.serviceUnit || "event"}
                       </p>
                     </div>
                   </div>
