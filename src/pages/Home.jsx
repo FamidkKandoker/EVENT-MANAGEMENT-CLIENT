@@ -544,9 +544,8 @@ const Home = () => {
                           {service.service_category}
                         </span>
                         <h3
-                          className={`font-bold text-white ${
-                            feature ? "text-3xl" : "text-xl"
-                          }`}
+                          className={`font-bold text-white ${feature ? "text-3xl" : "text-xl"
+                            }`}
                         >
                           {service.service_name}
                         </h3>
@@ -720,9 +719,9 @@ const Home = () => {
 
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            { name: "Sarah Ahmed", role: "Wedding Client", img: "https://i.pravatar.cc/150?img=1", text: "Lumora made our wedding day absolutely magical! The attention to detail was incredible." },
-            { name: "Karim Rahman", role: "Corporate Event", img: "https://i.pravatar.cc/150?img=2", text: "Professional service and stunning results. Our office event was a huge success!" },
-            { name: "Nadia Khan", role: "Home Decoration", img: "https://i.pravatar.cc/150?img=3", text: "They transformed my home beautifully. Highly recommend their services!" },
+            { name: "Tasmia Azam Neeti", role: "Wedding Client", img: "https://i.pravatar.cc/150?img=1", text: "Lumora made our wedding day absolutely magical! The attention to detail was incredible." },
+            { name: "Famid Khandoker", role: "Corporate Event", img: "https://i.pravatar.cc/150?img=2", text: "Professional service and stunning results. Our office event was a huge success!" },
+            { name: "Ryin Akand", role: "Home Decoration", img: "https://i.pravatar.cc/150?img=3", text: "They transformed my home beautifully. Highly recommend their services!" },
           ].map((t, i) => (
             <motion.div
               key={i}
